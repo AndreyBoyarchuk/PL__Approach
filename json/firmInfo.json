@@ -1,15 +1,15 @@
 {
   "accountingFirm": {
-    "name": "Integrated Accounting Solutions",
+    "name": " Accounting Firms",
     "address": {
-      "line1": "9640 W Fairview Ave Ste 135",
+      "line1": "1225 Main st ",
       "line2": "Boise, ID 83704"
     }
   },
   "preparer": {
-    "name": "Andrey Boyarchuk",
-    "email": "Andrey Boyarchuk",
-    "PTIN": "P01445070",
+    "name": "Joe ",
+    "email": "Shmo  ",
+    "PTIN": "P0123456",
     "signature": "__________________________",
     "date": "__________________________"
   }
