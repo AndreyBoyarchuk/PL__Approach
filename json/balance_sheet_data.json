@@ -1,0 +1,46 @@
+{
+  "company_name": "Example Company",
+  "accounting_method": "Accrual",
+  "as_of_date": "2023-04-30",
+  "assets": [
+    {
+      "category": "Current Assets",
+      "description": "Cash",
+      "amount": 20000
+    },
+    {
+      "category": "Current Assets",
+      "description": "Accounts Receivable",
+      "amount": 15000
+    },
+    {
+      "category": "Fixed Assets",
+      "description": "Equipment",
+      "amount": 50000
+    }
+  ],
+  "liabilities": [
+    {
+      "category": "Current Liabilities",
+      "description": "Accounts Payable",
+      "amount": 8000
+    },
+    {
+      "category": "Long-Term Liabilities",
+      "description": "Long-Term Loan",
+      "amount": 30000
+    }
+  ],
+  "equity": [
+    {
+      "category": "Owner's Equity",
+      "description": "Common Stock",
+      "amount": 40000
+    },
+    {
+      "category": "Owner's Equity",
+      "description": "Retained Earnings",
+      "amount": 10000
+    }
+  ]
+}

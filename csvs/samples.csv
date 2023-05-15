@@ -1,0 +1,15 @@
+Name,Type,,
+company_name,Sample Company,,
+accounting_method,Cash Basis,,
+start_date,2022-12-31,,
+end_date,2023-04-30,,
+,,,
+record_type,category,description,amount
+income,Operating Income,Income from Caregiving Services,3580695.05
+expense,Operating Expenses,Payroll Expense,2860415.2
+expense,Operating Expenses,Payroll Taxes Employer Portion,248334.09
+expense,Operating Expenses,Employee Injury and Illness Insurance,44916.99
+expense,Operating Expenses,Contracted Specialist Services,35317.93
+expense,Other Expenses,Other Expenses,3514
+income,Other Income,Interest Income,2000
+expense,COGS,Cost of Material,25

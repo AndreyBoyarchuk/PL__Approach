@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balance Sheet</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/functions.js" defer></script>
+    <script src="js/balance_sheet.js" defer></script>
+    <script src="js/preparerInfo.js" defer></script>
+</head>
+<body>
+
+  <div class="buttons-container">
+    <button onclick="printContainer()">Print</button>
+    <button onclick="createPDF()">Create PDF</button>
+    <button onclick="sendEmail()">Send Email</button>
+    <button onclick="togglePreparerInfo()">Show/Hide Preparer Info</button>
+    <label>
+      <input type="checkbox" id="print-preparer-info">
+      Print Preparer Info
+    </label>
+  </div>
+    <div class="container">
+        <div class="header-info">
+            <p id="accounting_method" class="accounting-method"></p>
+        </div>
+        <h1 id="company_name" class="text-center mb-4"></h1>
+        <h2 class="text-center mb-4">Balance Sheet</h2>
+        <h3 id="as_of_date" class="text-center mb-4"></h3>
+        <table>
+            <colgroup>
+                <col class="description-col">
+                <col class="amount-col">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th class="opening_line">Category</th>
+                    <th class="text-end">Amount</th>
+                </tr>
+            </thead>
+            <tbody id="statement"></tbody>
+            <tfoot>
+                <tr>
+                    <th></th>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+
+  <div id="preparer-info" style="display: none;">
+
+  </div>
+    </div>
+
+</body>
+</html>

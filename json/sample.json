@@ -1,0 +1,50 @@
+{
+    "company_name": "Sample Company",
+    "accounting_method": "Cash Basis",
+    "start_date": "2022-12-31",
+    "end_date": "2023-04-30",
+    "income": [
+        {
+            "category": "Operating Income",
+            "description": "Income from Caregiving Services",
+            "amount": 3580695.05
+        },
+        {
+            "category": "Other Income",
+            "description": "Interest Income",
+            "amount": 2000.0
+        }
+    ],
+    "expenses": [
+        {
+            "category": "Operating Expenses",
+            "description": "Payroll Expense",
+            "amount": 2860415.2
+        },
+        {
+            "category": "Operating Expenses",
+            "description": "Payroll Taxes Employer Portion",
+            "amount": 248334.09
+        },
+        {
+            "category": "Operating Expenses",
+            "description": "Employee Injury and Illness Insurance",
+            "amount": 44916.99
+        },
+        {
+            "category": "Operating Expenses",
+            "description": "Contracted Specialist Services",
+            "amount": 35317.93
+        },
+        {
+            "category": "Other Expenses",
+            "description": "Other Expenses",
+            "amount": 3514.0
+        },
+        {
+            "category": "COGS",
+            "description": "Cost of Material",
+            "amount": 25.0
+        }
+    ]
+}

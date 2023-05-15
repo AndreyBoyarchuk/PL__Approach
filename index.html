@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profit and Loss Statement</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/data_loader.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <script src="js/functions.js" defer></script>
+    <script src="js/preparerInfo.js" defer></script>
+</head>
+<body>
+<div class="buttons-container">
+    <button onclick="printContainer()">Print</button>
+    <button onclick="createPDF()">Create PDF</button>
+    <button onclick="sendEmail()">Send Email</button>
+    <button onclick="togglePreparerInfo()">Show/Hide Preparer Info</button>
+    <label>
+      <input type="checkbox" id="print-preparer-info">
+      Print Preparer Info
+    </label>
+  </div>
+    <div class="container">
+        <div class="header-info">
+            <p id="print_date" class="print-date"></p>
+            <p id="accounting_method" class="accounting-method"></p>
+        </div>
+        <h1 id="company_name" class="text-center mb-4"></h1>
+        <h2 class="text-center mb-4">Profit and Loss Statement</h2>
+        <h3 id="period" class="text-center mb-4"></h3>
+        <table>
+            <colgroup>
+                <col class="description-col">
+                <col class="amount-col">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th class="opening_line">Ordinary Income/Expense</th>
+                    <th class="text-end">Amount</th>
+                </tr>
+            </thead>
+            <tbody id="statement"></tbody>
+            <tfoot>
+                <tr>
+                    <th></th>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+
+    </div>
+    <div id="preparer-info" style="display: none;"></div>
+</body>
+</html>
+
